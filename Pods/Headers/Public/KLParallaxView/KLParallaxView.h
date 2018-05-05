@@ -1,0 +1,1 @@
+../../../KLParallaxView/Pod/Classes/KLParallaxView.h

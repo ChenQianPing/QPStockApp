@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  预编译文件:内容能被项目中的其他所有源文件共享和访问.
+//
+//  Created by ChenQianPing on 17/6/13.
+//  Copyright © 2017年 ChenQianPing. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "FontAndColorMacros.h"
+#import "UntilMacros.h"
+
+#import "QPPublicFunction.h"
+
+#import "NSString+Extension.h"
+
+#import "RDVTabBarController.h"
+#import "RDVTabBar.h"
+#import "RDVTabBarItem.h"
+#import "MJRefresh.h"
+#import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
+
+#import "HomePageViewController.h"
+#import "RecommendViewController.h"
+#import "QPSelfStockViewController.h"
+#import "AboutMeViewController.h"
+
+
+#endif /* PrefixHeader_pch */

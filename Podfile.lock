@@ -1,0 +1,66 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.4.7)
+  - CWStatusBarNotification (2.3.5)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - IQKeyboardManager (3.3.7)
+  - JHChart (1.0.3)
+  - KLParallaxView (0.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJExtension (3.0.13)
+  - RDVTabBarController (1.1.9)
+  - Reachability (3.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - Bugly
+  - CWStatusBarNotification
+  - FMDB (~> 2.6.2)
+  - IQKeyboardManager (~> 3.3.7)
+  - JHChart (~> 1.0.3)
+  - KLParallaxView
+  - MBProgressHUD (~> 1.0.0)
+  - MJExtension (~> 3.0.13)
+  - RDVTabBarController (~> 1.1.9)
+  - Reachability (~> 3.2)
+  - SDWebImage (~> 3.7.6)
+  - SVProgressHUD (~> 2.1.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: 2c256069145f550171907c5cb1c0f84ad291f6c1
+  CWStatusBarNotification: 3d2738b25c3207f60cc50201388d3c96182545ff
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JHChart: 0b65be4f2bb14033cf3f186fa577faa3c30ea3c9
+  KLParallaxView: 5f98cdcd98b333d610ec77af55aae6e8f642b056
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 3c6bd344e37cf3a54b7d8eb4df03c3833bf0e4e7
+
+COCOAPODS: 1.1.1

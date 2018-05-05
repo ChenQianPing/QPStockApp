@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="QPStockThreeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w29-Wh-57L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="24"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQi-wU-u53">
+                                <rect key="frame" x="0.0" y="0.0" width="80" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="5IJ-7t-wWn"/>
+                                    <constraint firstAttribute="width" constant="80" id="VkX-OR-pP6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="分时"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nR3-zS-FRs">
+                                <rect key="frame" x="80" y="0.0" width="80" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="FiA-yH-PYd"/>
+                                    <constraint firstAttribute="width" constant="80" id="ROR-Pb-JIX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="日K"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQd-4i-zip">
+                                <rect key="frame" x="240" y="0.0" width="80" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="adT-mH-6sW"/>
+                                    <constraint firstAttribute="width" constant="80" id="f5E-0j-Xcb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="月K"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1BE-W5-5fc">
+                                <rect key="frame" x="160" y="0.0" width="80" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="7Dz-Pz-1vS"/>
+                                    <constraint firstAttribute="height" constant="24" id="gxh-rP-EnI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="周K"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nR3-zS-FRs" firstAttribute="top" secondItem="w29-Wh-57L" secondAttribute="top" id="09s-rY-GEr"/>
+                            <constraint firstItem="rQi-wU-u53" firstAttribute="leading" secondItem="w29-Wh-57L" secondAttribute="leading" id="AyD-vy-4aD"/>
+                            <constraint firstItem="nR3-zS-FRs" firstAttribute="leading" secondItem="rQi-wU-u53" secondAttribute="trailing" id="E8T-sU-Csd"/>
+                            <constraint firstItem="rQi-wU-u53" firstAttribute="top" secondItem="w29-Wh-57L" secondAttribute="top" id="F6v-yj-Jgu"/>
+                            <constraint firstAttribute="height" constant="24" id="Igd-el-bui"/>
+                            <constraint firstItem="1BE-W5-5fc" firstAttribute="leading" secondItem="nR3-zS-FRs" secondAttribute="trailing" id="Ih6-kr-Xg0"/>
+                            <constraint firstAttribute="trailing" secondItem="dQd-4i-zip" secondAttribute="trailing" id="Kty-VN-gKI"/>
+                            <constraint firstItem="1BE-W5-5fc" firstAttribute="top" secondItem="w29-Wh-57L" secondAttribute="top" id="W3w-gb-9vD"/>
+                            <constraint firstItem="dQd-4i-zip" firstAttribute="top" secondItem="w29-Wh-57L" secondAttribute="top" id="ayR-7J-yhU"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="min.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Fso-Ft-nzy">
+                        <rect key="frame" x="0.0" y="24" width="320" height="175"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Fso-Ft-nzy" secondAttribute="trailing" id="6es-UJ-evu"/>
+                    <constraint firstItem="Fso-Ft-nzy" firstAttribute="top" secondItem="w29-Wh-57L" secondAttribute="bottom" id="Ghu-lp-5Vh"/>
+                    <constraint firstAttribute="bottom" secondItem="Fso-Ft-nzy" secondAttribute="bottom" id="M2r-cw-vZW"/>
+                    <constraint firstItem="w29-Wh-57L" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="TIz-xw-b0e"/>
+                    <constraint firstItem="w29-Wh-57L" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eS6-Af-glG"/>
+                    <constraint firstItem="Fso-Ft-nzy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="oZR-dv-Grx"/>
+                    <constraint firstAttribute="trailing" secondItem="w29-Wh-57L" secondAttribute="trailing" id="uWp-dB-3Ke"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dailyButton" destination="nR3-zS-FRs" id="kOQ-YY-M3m"/>
+                <outlet property="minButton" destination="rQi-wU-u53" id="JTn-ze-NDU"/>
+                <outlet property="minImageView" destination="Fso-Ft-nzy" id="T4t-rS-i89"/>
+                <outlet property="monthlyButton" destination="dQd-4i-zip" id="hca-ch-VR7"/>
+                <outlet property="weeklyButton" destination="1BE-W5-5fc" id="EEE-rj-Ow4"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="min.gif" width="545" height="300"/>
+    </resources>
+</document>

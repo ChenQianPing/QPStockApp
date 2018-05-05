@@ -1,0 +1,1 @@
+../../../JHChart/JHChart/Classes/JHColumnChart.h
